@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# runtime
+abq_jobs/
+run*.log
+
+
+# run artifacts / machine-local
+*.out
+abaqus.rpy*
+abaqus_env.bat
+_batch_*/
