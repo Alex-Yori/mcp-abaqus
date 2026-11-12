@@ -1,0 +1,110 @@
+Abaqus/Explicit 3DEXPERIENCE R2018x            DATE 12-11月-2026  TIME 12:46:04
+-------------------------------------------------------------------------------
+ PREPROCESSOR WARNING MESSAGES
+-------------------------------------------------------------------------------
+
+
+***WARNING: There are 1 warning messages in the data (.dat) file.  Please
+            check the data file for possible errors in the input file.
+
+
+-------------------------------------------------------------------------------
+ MODEL INFORMATION (IN GLOBAL X-Y COORDINATES)
+-------------------------------------------------------------------------------
+
+   Total mass (unscaled) in model = 7.80000E-09
+   Center of mass of model (based on unscaled mass) = ( 5.000000E-01, 5.000000E-01, 5.000000E-01)
+
+    Moments of Inertia :
+                 About Center of Mass              About Origin
+      I(XX)          3.900000E-09                  7.800000E-09
+      I(YY)          3.900000E-09                  7.800000E-09
+      I(ZZ)          3.900000E-09                  7.800000E-09
+      I(XY)          0.000000E+00                 -1.950000E-09
+      I(YZ)          0.000000E+00                 -1.950000E-09
+      I(ZX)          0.000000E+00                 -1.950000E-09
+
+-------------------------------------------------------------------------------
+ STABLE TIME INCREMENT INFORMATION
+-------------------------------------------------------------------------------
+
+
+  The stable time increment estimate for each element is based on
+  linearization about the initial state. The stable time increment estimates
+  do not account for mass scaling.
+
+
+   Initial time increment = 1.11061E-07
+
+   Statistics for all elements:
+      Mean = 1.11061E-07
+      Standard deviation = 0.0000
+
+   Most critical elements:
+    Element number   Rank    Time increment   Increment ratio
+   ----------------------------------------------------------
+           1          1       1.110615E-07      1.000000E+00
+
+
+***WARNING: Jumps in displacement boundary conditions have been detected at
+            the beginning of step 1.  The maximum jump is 2.00000E-02 at node
+            5.  The node set "WarnNodeDispBCJump" has been written to the
+            database file.  Check the .msg file for more detailed information.
+
+
+***NOTE: Displacement boundary conditions with prescribed jumps will be
+         enforced as defined, minus the value of the jump. The jumps might be
+         caused by:
+            1) A discontinuous *BOUNDARY, TYPE=DISPLACEMENT definition.
+            2) Initial contact adjustments at the beginning of the first
+               step.
+            3) Locating the rigid body reference node with the POSITION=CENTER
+               OF MASS parameter.
+            4) Use of an amplitude curve to prescribe the boundary conditions
+               in an analysis with a large number of increments; precision
+               error may cause a small drift from the prescribed displacement.
+
+
+Abaqus/Explicit 3DEXPERIENCE R2018x            DATE 12-11月-2026  TIME 12:46:06
+
+The single precision Abaqus/Explicit executable will be used in this analysis.
+
+
+-------------------------------------------------------------------------------
+ SOLUTION PROGRESS
+-------------------------------------------------------------------------------
+
+ STEP 1  ORIGIN 0.0000
+
+  Total memory used for step 1 is approximately 167.5 kilobytes.
+  Global time estimation algorithm will be used.
+  Scaling factor:  1.0000
+  Variable mass scaling factor at zero increment: 1.0000
+              STEP     TOTAL       CPU      STABLE    CRITICAL    KINETIC      TOTAL    PERCENT
+INCREMENT     TIME      TIME      TIME   INCREMENT     ELEMENT     ENERGY     ENERGY  CHNG MASS
+        0  0.000E+00 0.000E+00  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      0 of     20 requested intervals at increment zero.
+        1  1.111E-06 1.111E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      1 of     20 requested intervals at  1.110615E-06
+        2  2.221E-06 2.221E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      2 of     20 requested intervals at  2.221230E-06
+        3  3.332E-06 3.332E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      3 of     20 requested intervals at  3.331844E-06
+        4  4.442E-06 4.442E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      4 of     20 requested intervals at  4.442459E-06
+        5  5.553E-06 5.553E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      5 of     20 requested intervals at  5.553074E-06
+        6  6.664E-06 6.664E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      6 of     20 requested intervals at  6.663689E-06
+        7  7.774E-06 7.774E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      7 of     20 requested intervals at  7.774303E-06
+        8  8.885E-06 8.885E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      8 of     20 requested intervals at  8.884918E-06
+        9  9.442E-06 9.442E-06  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+ODB Field Frame Number      9 of     20 requested intervals at  9.442459E-06
+       10  1.000E-05 1.000E-05  00:00:00 1.111E-06           1  0.000E+00  0.000E+00  9.900E+03
+Restart Number  1 at 1.00000E-05
+ODB Field Frame Number     10 of     20 requested intervals at  1.000000E-05
+
+  THE ANALYSIS HAS COMPLETED SUCCESSFULLY
+
